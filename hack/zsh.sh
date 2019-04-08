@@ -4,7 +4,7 @@ set -o nounset
 set -o errexit
 
 echo "Installing zsh"
-sudo apt install zsh
+sudo apt install -y zsh
 
 echo "Set zsh as default shell"
 sudo chsh -s $(which zsh) $USER

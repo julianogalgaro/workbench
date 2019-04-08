@@ -22,3 +22,4 @@ hack/robomongo.sh
 hack/eclipse.sh
 hack/keepass.sh
 hack/history.sh
+hack/profile.sh

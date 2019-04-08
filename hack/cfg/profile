@@ -1,0 +1,4 @@
+. "$HOME/workspace/julianogalgaro/dotfiles/.profile/.gopath"
+. "$HOME/workspace/julianogalgaro/dotfiles/.profile/.appspath"
+. "$HOME/workspace/julianogalgaro/dotfiles/.profile/.external_monitor"
+. "$HOME/workspace/julianogalgaro/dotfiles/.profile/.aliases"

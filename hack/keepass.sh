@@ -2,6 +2,6 @@
 
 set -e
 
-sudo add-apt-repository -y ppa:jtaylor/keepass
+sudo apt-add-repository -y ppa:jtaylor/keepass
 sudo apt update
-sudo apt install keypass2
+sudo apt install -y keepass2

@@ -3,9 +3,9 @@ set -e
 
 echo "Installing git and other basic stuff"
 sudo apt update
-sudo apt install -y vim git lsof openssh curl dos2unix
+sudo apt install -y vim git lsof openssh-server curl dos2unix
 sudo apt install -y make xclip unrar scrot build-essential net-tools
-sudo apt install -y ntfs-3g vlc sshd nitrogen xautolock xbacklight 
+sudo apt install -y ntfs-3g vlc nitrogen xautolock xbacklight 
 
 git config --global user.name "Juliano Galgaro"
 git config --global user.email "juliano.galgaro@neoway.com.br"

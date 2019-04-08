@@ -7,5 +7,4 @@ echo "Installing i3"
 sudo apt install -y i3
 sudo apt install -y i3lock
 
-./i3-cfg.sh
-
+./hack/i3-cfg.sh

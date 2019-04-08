@@ -19,6 +19,7 @@ hack/spotify.sh
 hack/slack.sh
 hack/datagrip.sh
 hack/robomongo.sh
+hack/java.sh
 hack/eclipse.sh
 hack/keepass.sh
 hack/history.sh

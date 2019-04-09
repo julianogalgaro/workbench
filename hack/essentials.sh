@@ -32,3 +32,8 @@ sudo apt install -y iotop iftop htop sysstat
 echo "Get dotfiles project"
 mkdir -p ${HOME}/workspace/julianogalgaro
 git clone https://github.com/julianogalgaro/dotfiles.git ${HOME}/workspace/julianogalgaro/dotfiles
+
+echo "Restoring background"
+mkdir -p ${HOME}/.config/nitrogen
+cp ./hack/cfg/nitrogen-bd-saved.cfg .config/nitrogen/bg-saved.cfg
+nitrogen --restore

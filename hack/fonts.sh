@@ -12,3 +12,6 @@ cd awesome-terminal-fonts
 mkdir -p ${HOME}/.config/fontconfig/conf.d
 cp ./hack/cfg/11-powerline-symbols.conf ${HOME}/.config/fontconfig/conf.d/
 fc-cache -vf
+
+sudo apt install fonts-powerline
+echo "-> You need to restart your machine after install fonts-powerline"

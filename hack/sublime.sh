@@ -12,3 +12,7 @@ echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sou
 
 sudo apt update
 sudo apt install -y sublime-text
+
+echo "Installing GoSublime"
+mkdir -p $HOME/.config/sublime-text-3/Packages
+cd $HOME/.config/sublime-text-3/Packages

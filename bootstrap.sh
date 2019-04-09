@@ -22,5 +22,5 @@ hack/robomongo.sh
 hack/java.sh
 hack/eclipse.sh
 hack/keepass.sh
-hack/history.sh
+hack/vault-items.sh
 hack/profile.sh

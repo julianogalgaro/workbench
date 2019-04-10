@@ -38,5 +38,5 @@ git clone https://github.com/julianogalgaro/dotfiles.git ${HOME}/workspace/julia
 
 echo "Restoring background"
 mkdir -p ${HOME}/.config/nitrogen
-cp ./hack/cfg/nitrogen-bd-saved.cfg .config/nitrogen/bg-saved.cfg
+cp ./hack/cfg/nitrogen-bg-saved.cfg ${HOME}/.config/nitrogen/bg-saved.cfg
 nitrogen --restore

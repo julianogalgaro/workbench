@@ -26,8 +26,11 @@ sudo localectl set-locale LANG=en_US.UTF-8
 echo "Installing Sound Stuff"
 sudo apt install -y pulseaudio pavucontrol
 
-echo "Install Monitoring tools"
+echo "Installing Monitoring tools"
 sudo apt install -y iotop iftop htop sysstat
+
+echo "Installing snapd"
+sudo apt install -y snapd
 
 echo "Get dotfiles project"
 mkdir -p ${HOME}/workspace/julianogalgaro

@@ -17,6 +17,3 @@ echo "Installing GoSublime"
 mkdir -p $HOME/.config/sublime-text-3/Packages
 cd $HOME/.config/sublime-text-3/Packages
 git clone https://margo.sh/GoSublime
-
-echo "Installing Goimports"
-got get golang.org/x/tools/cmd/goimports

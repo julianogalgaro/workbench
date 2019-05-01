@@ -5,7 +5,7 @@ echo "Installing git and other basic stuff"
 sudo apt update
 sudo apt install -y vim git lsof openssh-server curl dos2unix
 sudo apt install -y make xclip unrar scrot build-essential net-tools
-sudo apt install -y ntfs-3g vlc nitrogen xautolock xbacklight blueman xdotool 
+sudo apt install -y ntfs-3g nitrogen xautolock xbacklight blueman xdotool 
 
 git config --global user.name "Juliano Galgaro"
 git config --global user.email "juliano.galgaro@neoway.com.br"
@@ -31,6 +31,9 @@ sudo apt install -y iotop iftop htop sysstat
 
 echo "Installing snapd"
 sudo apt install -y snapd
+
+echo "Installing vlc"
+sudo snap install vlc
 
 echo "Get dotfiles project"
 mkdir -p ${HOME}/workspace/julianogalgaro

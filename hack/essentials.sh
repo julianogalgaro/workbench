@@ -4,7 +4,7 @@ set -e
 echo "Installing git and other basic stuff"
 sudo apt update
 sudo apt install -y vim git lsof openssh-server curl dos2unix
-sudo apt install -y make xclip unrar scrot build-essential net-tools
+sudo apt install -y make xclip unrar scrot build-essential net-tools parallel
 sudo apt install -y ntfs-3g nitrogen xautolock xbacklight blueman xdotool 
 
 git config --global user.name "Juliano Galgaro"

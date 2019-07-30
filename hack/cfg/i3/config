@@ -167,8 +167,8 @@ exec_always --no-startup-id xautolock -time 1 -locker "i3lock -c 000000 -n"
 bindsym $mod+o exec nautilus 
 
 # PrintScreen
-bindsym --release Print exec scrot ~/Pictures/Captura_de_tela_%Y-%m-%d-%T.png
-bindsym --release Shift+Print exec scrot -s ~/Pictures/Captura_de_area_%Y-%m-%d-%T.png
+bindsym --release Print exec scrot ~/Pictures/Captura_de_tela_%Y-%m-%d-%H%M%S.png
+bindsym --release Shift+Print exec scrot -s ~/Pictures/Captura_de_area_%Y-%m-%d-%H%M%S.png
 
 # Audio controls
 bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5%; exec pactl set-sink-mute @DEFAULT_SINK@ 0

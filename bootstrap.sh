@@ -14,7 +14,7 @@ hack/window-manager.sh
 hack/browsers.sh
 hack/docker.sh
 hack/zsh.sh
-hack/sublime.sh
+hack/editors.sh
 hack/spotify.sh
 hack/slack.sh
 hack/datagrip.sh

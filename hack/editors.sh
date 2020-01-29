@@ -17,3 +17,7 @@ echo "Installing GoSublime"
 mkdir -p $HOME/.config/sublime-text-3/Packages
 cd $HOME/.config/sublime-text-3/Packages
 git clone https://margo.sh/GoSublime
+
+
+echo "Installing vscode"
+sudo snap install code --classic

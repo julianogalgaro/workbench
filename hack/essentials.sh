@@ -5,7 +5,7 @@ echo "Installing git and other basic stuff"
 sudo apt update
 sudo apt install -y vim git lsof openssh-server curl dos2unix tree
 sudo apt install -y make xclip unrar scrot build-essential net-tools parallel
-sudo apt install -y ntfs-3g nitrogen xautolock xbacklight blueman xdotool systemd-container
+sudo apt install -y ntfs-3g nitrogen xautolock xbacklight blueman xdotool systemd-container arandr
 
 git config --global user.name "Juliano Galgaro"
 git config --global user.email "juliano.galgaro@neoway.com.br"

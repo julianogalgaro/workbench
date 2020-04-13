@@ -35,6 +35,9 @@ sudo apt install -y snapd
 echo "Installing vlc"
 sudo snap install vlc
 
+echo "Installing screen recording app"
+sudo apt install -y kazam
+
 echo "Get dotfiles project"
 mkdir -p ${HOME}/workspace/julianogalgaro
 git clone https://github.com/julianogalgaro/dotfiles.git ${HOME}/workspace/julianogalgaro/dotfiles

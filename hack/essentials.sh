@@ -38,6 +38,9 @@ sudo snap install vlc
 echo "Installing screen recording app"
 sudo apt install -y kazam
 
+echo "Installing pomodoro app"
+sudo apt install -y gnome-shell-pomodoro
+
 echo "Get dotfiles project"
 mkdir -p ${HOME}/workspace/julianogalgaro
 git clone https://github.com/julianogalgaro/dotfiles.git ${HOME}/workspace/julianogalgaro/dotfiles

@@ -1,7 +1,7 @@
 #!/bin/sh
 
 set -e 
-DG_VERSION="2018.2"
+DG_VERSION="2019.3.5"
 cd /tmp
 wget https://download.jetbrains.com/datagrip/datagrip-${DG_VERSION}.tar.gz
 tar -xzf datagrip-${DG_VERSION}.tar.gz

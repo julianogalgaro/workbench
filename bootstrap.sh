@@ -24,6 +24,6 @@ hack/eclipse.sh
 hack/keepass.sh
 hack/vault-items.sh
 hack/profile.sh
-hach/nw.sh
-hack/kubectl.sh
-hack/minikube.sh
+#hach/nw.sh
+#hack/kubectl.sh
+#hack/minikube.sh

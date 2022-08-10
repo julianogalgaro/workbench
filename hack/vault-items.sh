@@ -5,7 +5,7 @@ set -e
 echo "Restoring the project"
 mkdir -p ${HOME}/workspace/juliano.galgaro
 cd ${HOME}/workspace/juliano.galgaro
-#git clone https://gitlab.neoway.com.br/juliano.galgaro/bots.git
+git clone https://gitlab.neoway.com.br/juliano.galgaro/bots.git
 cd bots/KEYS/vault
 
 
